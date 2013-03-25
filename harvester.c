@@ -27,7 +27,7 @@ extern int gethostname(char *name, size_t namelen);
 #endif
 
 #define EMITTER_SOCKET "inproc://emitter"
-#define BUFFERSIZE 16384
+#define BUFFERSIZE 65536
 
 /* A free function that simply calls free(3) for zmq_msg */
 //static inline void free2(void *data, void __attribute__((__unused__)) *hint) {
